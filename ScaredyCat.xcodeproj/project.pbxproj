@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57588AB21F91D84100CDE796 /* pheist_license_freeware.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57588AB01F91D84000CDE796 /* pheist_license_freeware.pdf */; };
+		57588AB31F91D84100CDE796 /* Fipps-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 57588AB11F91D84000CDE796 /* Fipps-Regular.otf */; };
 		57C20DBB1F32DDBD00EFFB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C20DBA1F32DDBD00EFFB02 /* AppDelegate.swift */; };
 		57C20DBD1F32DDBD00EFFB02 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 57C20DBC1F32DDBD00EFFB02 /* GameScene.sks */; };
 		57C20DBF1F32DDBD00EFFB02 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 57C20DBE1F32DDBD00EFFB02 /* Actions.sks */; };
@@ -17,6 +19,12 @@
 		57C20DCB1F32DDBD00EFFB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C20DC91F32DDBD00EFFB02 /* LaunchScreen.storyboard */; };
 		57C20DD61F32DDBD00EFFB02 /* ScaredyCatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C20DD51F32DDBD00EFFB02 /* ScaredyCatTests.swift */; };
 		57C20DE11F32DDBE00EFFB02 /* ScaredyCatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C20DE01F32DDBE00EFFB02 /* ScaredyCatUITests.swift */; };
+		57C20DEF1F32E0D600EFFB02 /* Hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C20DEE1F32E0D600EFFB02 /* Hole.swift */; };
+		57C20DF51F35B79300EFFB02 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C20DF41F35B79300EFFB02 /* Helper.swift */; };
+		57C20DFB1F3692F500EFFB02 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C20DFA1F3692F500EFFB02 /* StartScene.swift */; };
+		57C20DFD1F36965900EFFB02 /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 57C20DFC1F36965900EFFB02 /* StartScene.sks */; };
+		57C20DFF1F36F2CA00EFFB02 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C20DFE1F36F2CA00EFFB02 /* GameOver.swift */; };
+		57C20E011F36F2D900EFFB02 /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 57C20E001F36F2D900EFFB02 /* GameOver.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57588AB01F91D84000CDE796 /* pheist_license_freeware.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pheist_license_freeware.pdf; sourceTree = "<group>"; };
+		57588AB11F91D84000CDE796 /* Fipps-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fipps-Regular.otf"; sourceTree = "<group>"; };
 		57C20DB71F32DDBD00EFFB02 /* ScaredyCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaredyCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C20DBA1F32DDBD00EFFB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57C20DBC1F32DDBD00EFFB02 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +63,12 @@
 		57C20DDC1F32DDBE00EFFB02 /* ScaredyCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaredyCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C20DE01F32DDBE00EFFB02 /* ScaredyCatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaredyCatUITests.swift; sourceTree = "<group>"; };
 		57C20DE21F32DDBE00EFFB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C20DEE1F32E0D600EFFB02 /* Hole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hole.swift; sourceTree = "<group>"; };
+		57C20DF41F35B79300EFFB02 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		57C20DFA1F3692F500EFFB02 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		57C20DFC1F36965900EFFB02 /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
+		57C20DFE1F36F2CA00EFFB02 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		57C20E001F36F2D900EFFB02 /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57588AAF1F91D84000CDE796 /* fipps */ = {
+			isa = PBXGroup;
+			children = (
+				57588AB01F91D84000CDE796 /* pheist_license_freeware.pdf */,
+				57588AB11F91D84000CDE796 /* Fipps-Regular.otf */,
+			);
+			path = fipps;
+			sourceTree = "<group>";
+		};
 		57C20DAE1F32DDBD00EFFB02 = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +128,17 @@
 		57C20DB91F32DDBD00EFFB02 /* ScaredyCat */ = {
 			isa = PBXGroup;
 			children = (
+				57588AAF1F91D84000CDE796 /* fipps */,
 				57C20DBA1F32DDBD00EFFB02 /* AppDelegate.swift */,
 				57C20DBC1F32DDBD00EFFB02 /* GameScene.sks */,
 				57C20DBE1F32DDBD00EFFB02 /* Actions.sks */,
 				57C20DC01F32DDBD00EFFB02 /* GameScene.swift */,
+				57C20DFA1F3692F500EFFB02 /* StartScene.swift */,
+				57C20DFC1F36965900EFFB02 /* StartScene.sks */,
+				57C20DFE1F36F2CA00EFFB02 /* GameOver.swift */,
+				57C20E001F36F2D900EFFB02 /* GameOver.sks */,
+				57C20DEE1F32E0D600EFFB02 /* Hole.swift */,
+				57C20DF41F35B79300EFFB02 /* Helper.swift */,
 				57C20DC21F32DDBD00EFFB02 /* GameViewController.swift */,
 				57C20DC41F32DDBD00EFFB02 /* Main.storyboard */,
 				57C20DC71F32DDBD00EFFB02 /* Assets.xcassets */,
@@ -197,11 +229,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Victor Huang";
 				TargetAttributes = {
 					57C20DB61F32DDBD00EFFB02 = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
 					};
 					57C20DD01F32DDBD00EFFB02 = {
 						CreatedOnToolsVersion = 9.0;
@@ -238,9 +271,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57588AB31F91D84100CDE796 /* Fipps-Regular.otf in Resources */,
 				57C20DC61F32DDBD00EFFB02 /* Main.storyboard in Resources */,
+				57C20E011F36F2D900EFFB02 /* GameOver.sks in Resources */,
+				57588AB21F91D84100CDE796 /* pheist_license_freeware.pdf in Resources */,
 				57C20DBD1F32DDBD00EFFB02 /* GameScene.sks in Resources */,
 				57C20DC81F32DDBD00EFFB02 /* Assets.xcassets in Resources */,
+				57C20DFD1F36965900EFFB02 /* StartScene.sks in Resources */,
 				57C20DCB1F32DDBD00EFFB02 /* LaunchScreen.storyboard in Resources */,
 				57C20DBF1F32DDBD00EFFB02 /* Actions.sks in Resources */,
 			);
@@ -268,6 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C20DC11F32DDBD00EFFB02 /* GameScene.swift in Sources */,
+				57C20DFB1F3692F500EFFB02 /* StartScene.swift in Sources */,
+				57C20DFF1F36F2CA00EFFB02 /* GameOver.swift in Sources */,
+				57C20DEF1F32E0D600EFFB02 /* Hole.swift in Sources */,
+				57C20DF51F35B79300EFFB02 /* Helper.swift in Sources */,
 				57C20DC31F32DDBD00EFFB02 /* GameViewController.swift in Sources */,
 				57C20DBB1F32DDBD00EFFB02 /* AppDelegate.swift in Sources */,
 			);
@@ -338,6 +379,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -345,6 +387,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -372,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -395,6 +438,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -402,6 +446,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -423,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -435,13 +480,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G6Z3AXWKM3;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V4PEAFGK2X;
 				INFOPLIST_FILE = ScaredyCat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vactor.ScaredyCat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veector.ScaredyCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1a365634-0ade-4f24-a8fc-c2a43552fac3";
+				PROVISIONING_PROFILE_SPECIFIER = ScaredyCat;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,13 +499,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G6Z3AXWKM3;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V4PEAFGK2X;
 				INFOPLIST_FILE = ScaredyCat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vactor.ScaredyCat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veector.ScaredyCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1a365634-0ade-4f24-a8fc-c2a43552fac3";
+				PROVISIONING_PROFILE_SPECIFIER = ScaredyCat;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -466,6 +521,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = G6Z3AXWKM3;
 				INFOPLIST_FILE = ScaredyCatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vactor.ScaredyCatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +538,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = G6Z3AXWKM3;
 				INFOPLIST_FILE = ScaredyCatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vactor.ScaredyCatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,6 +554,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G6Z3AXWKM3;
 				INFOPLIST_FILE = ScaredyCatUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vactor.ScaredyCatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +570,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G6Z3AXWKM3;
 				INFOPLIST_FILE = ScaredyCatUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vactor.ScaredyCatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -540,6 +599,7 @@
 				57C20DE71F32DDBE00EFFB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C20DE81F32DDBE00EFFB02 /* Build configuration list for PBXNativeTarget "ScaredyCatTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +608,7 @@
 				57C20DEA1F32DDBE00EFFB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C20DEB1F32DDBE00EFFB02 /* Build configuration list for PBXNativeTarget "ScaredyCatUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +617,7 @@
 				57C20DED1F32DDBE00EFFB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
